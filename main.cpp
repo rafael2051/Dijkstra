@@ -74,8 +74,6 @@ int main(int argc, char ** argv) {
 		exit(1);
 	}
 
-
-	int count = 0;
 	int N, A, qtd_testes;
 	fscanf(f, "%d %d\n", &N, &A);
 	int * ijpeso = (int *)malloc(sizeof(int) * A * 3);
