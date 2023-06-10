@@ -8,7 +8,6 @@
 ​	Cujas informações estão no arquivo txt com o seguinte formato:
 
 9 15
-
 1 2 1
 
 1 4 2
