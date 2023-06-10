@@ -8,20 +8,35 @@
 ​	Cujas informações estão no arquivo txt com o seguinte formato:
 
 9 15
+
 1 2 1
+
 1 4 2
+
 1 6 1
+
 1 8 4
+
 2 3 4
+
 2 4 2
+
 2 8 1
+
 2 9 5
+
 3 4 1
+
 3 5 1
+
 4 5 1
+
 5 6 2
+
 6 7 1
+
 7 8 2
+
 8 9 1
 
 ​	A primeira linha contém a quantidade de vértices do grafo, seguida pela quantidade de arestas. Além disso, grafo.txt também possui os testes que serão realizados:
