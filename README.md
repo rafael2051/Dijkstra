@@ -5,52 +5,6 @@
 		
 ​	Além da implementação do Dijkstra, o código também executa uma serialização de estrutura de dado. O grafo está representado por um arquivo txt, e o  programa abre esse arquivo e recupera as informações com o uso de fscanf em diferentes laços. As arestas do grafo são armazenas em um vetor ijpeso[], no qual cada tripla representa uma aresta. Por exemplo ijpeso[] = {1,3,10, 5,8,10} tem duas arestas, entre os vértices 1 e 3, 5 e 8, e ambas com peso 10. O arquivo grafo.txt também contém a informação dos testes que serão realizados no grafo, para verificar qual o custo mínimo entre diferentes salas, considerando diferentes cenários, em que as salas trancadas e a sala com chave mudam.
 
-​	Cujas informações estão no arquivo txt com o seguinte formato:
-
-9 15 
-1 2 1
-
-1 4 2
-
-1 6 1
-
-1 8 4
-
-2 3 4
-
-2 4 2
-
-2 8 1
-
-2 9 5
-
-3 4 1
-
-3 5 1
-
-4 5 1
-
-5 6 2
-
-6 7 1
-
-7 8 2
-
-8 9 1
-
-​	A primeira linha contém a quantidade de vértices do grafo, seguida pela quantidade de arestas. Além disso, grafo.txt também possui os testes que serão realizados:
-10
-1 9 3 1 0 1 1 1 1 1 1 1
-1 9 7 1 0 1 1 1 1 1 0 1
-1 9 3 1 0 1 1 1 1 1 0 1
-1 9 3 1 0 1 0 1 1 1 0 1
-9 4 7 1 1 1 1 1 1 1 1 1
-9 4 7 1 0 1 1 1 1 1 1 1
-9 4 7 0 0 1 1 1 1 1 1 1
-9 4 7 1 1 1 1 1 1 1 0 1
-8 6 3 1 0 1 1 0 0 1 1 1
-8 6 3 0 1 1 1 0 0 1 1 1
-
 ​	Com o código implementado, é possível fazer o quaisquer testes em qualquer grafo não-dirigido ponderado, desde que o arquivo txt tenha a mesma formatação de grafo.txt.
 
 # Compilação e execução
