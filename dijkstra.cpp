@@ -199,12 +199,6 @@ void destroiGrafo(VERTICE * g, int N){
 
 // funcao principal
 
-//------------------------------------------
-// O EP consiste em implementar esta funcao
-// e outras funcoes auxiliares que esta
-// necessitar
-//------------------------------------------
-
 NO * caminho(int N, int A, int *ijpeso, int *aberto, int inicio, int fim, int chave){
 	NO * resp_pr1;
 	NO * resp_ini_key;
