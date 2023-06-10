@@ -6,6 +6,7 @@
 ​	Além da implementação do Dijkstra, o código também executa uma serialização de estrutura de dado. O grafo está representado por um arquivo txt, e o  programa abre esse arquivo e recupera as informações com o uso de fscanf em diferentes laços. As arestas do grafo são armazenas em um vetor ijpeso[], no qual cada tripla representa uma aresta. Por exemplo ijpeso[] = {1,3,10, 5,8,10} tem duas arestas, entre os vértices 1 e 3, 5 e 8, e ambas com peso 10. O arquivo grafo.txt também contém a informação dos testes que serão realizados no grafo, para verificar qual o custo mínimo entre diferentes salas, considerando diferentes cenários, em que as salas trancadas e a sala com chave mudam.
 
 ​	Com o código implementado, é possível fazer o quaisquer testes em qualquer grafo não-dirigido ponderado, desde que o arquivo txt tenha a mesma formatação de grafo.txt.
+​	O arquivo "dijkstra.cpp" que possui de fato a implementação do algoritmo de dijkstra. A função dijkstra() é chamada por uma função caminho(), do próprio arquivo. Por outro lado, o arquivo "main.cpp" possui as funções que leem o arquivo txt com o uso do fscanf, e faz as chamadas para função caminho() presente em "dijkstra.cpp", e também imprime as respostas.
 
 # Compilação e execução
 
