@@ -2,15 +2,8 @@
 
 ​	Minha implementação do algoritmo de Dijkstra, estudado durante a disciplina "Algoritmos e Estruturas de Dados II", no curso Sistemas de Informação da Universidade de São Paulo. O código encontra o caminho de custo mínimo entre um vértice e outro, em um grafo não-dirigido ponderado; vértices representam salas, e arestas conexões entre as salas, com um peso associado a elas que representa o custo.
 ​	Para aumentar a dificuldade do problema, foi acrescentada a informação de que algumas salas podem estar trancadas, e nesse caso existirá uma sala com chave que concede acesso a todas outras salas. O caminho de menor custo não pode passar por uma sala trancada sem passar pela sala com chave antes, e é função do algoritmo decidir se é melhor passar pela sala com chave ou não.
-
-​	Exemplo de grafo:
-![		](C:\Users\rafae\AppData\Roaming\Typora\typora-user-images\image-20230610025102341.png)			
-
+		
  	Além da implementação do Dijkstra, o código também executa uma serialização de estrutura de dado. O grafo está representado por um arquivo txt, e o  programa abre esse arquivo e recupera as informações com o uso de fscanf em diferentes laços. As arestas do grafo são armazenas em um vetor ijpeso[], no qual cada tripla representa uma aresta. Por exemplo ijpeso[] = {1,3,10, 5,8,10} tem duas arestas, entre os vértices 1 e 3, 5 e 8, e ambas com peso 10. O arquivo grafo.txt também contém a informação dos testes que serão realizados no grafo, para verificar qual o custo mínimo entre diferentes salas, considerando diferentes cenários, em que as salas trancadas e a sala com chave mudam.
-
-​	O grafo de teste do arquivo grafo.txt é o seguinte:
-
-![image-20230610132538083](C:\Users\rafae\AppData\Roaming\Typora\typora-user-images\image-20230610132538083.png)
 
 ​	Cujas informações estão no arquivo txt com o seguinte formato:
 
